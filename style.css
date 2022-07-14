@@ -525,13 +525,15 @@ footer a {
         align-items: center;
         padding: 20px;
         border-radius: 10px;
-        background-color: #8c91ab;
-        color: white;
+        background-color: #F9F1EC;
+        color: black;
         margin: 0px 5px;
         font-weight: bold;
         border: none;
         cursor: pointer;
         transition: all .2s ease-in-out;
+        box-shadow: 3px 3px 3px #b6b0ac;
+        margin-bottom: 3px;
     }
 
     .filters button:hover {
