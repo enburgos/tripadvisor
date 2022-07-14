@@ -519,6 +519,10 @@ footer a {
 
     }
 
+    .filters i {
+        display: none;
+    }
+
     .filters button {
         flex-shrink: 0;
         display: flex;
