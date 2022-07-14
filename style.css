@@ -419,7 +419,7 @@ footer a {
 
     header {
         display: flex;
-        background-color: #8c91ab;
+        background-color: #F9F1EC;
         justify-content: center;
         flex-direction: column;
         max-width: none;
@@ -542,6 +542,7 @@ footer a {
 
     .central-images {
         display: flex;
+        flex-wrap: wrap;
         margin-top: 20px;
         justify-content: center;
         align-items: center;
@@ -549,8 +550,8 @@ footer a {
     }
 
     .grande-image {
-        padding: 3px;
-        width: 66%;
+        width: 100%;
+        padding: 0;
     }
 
     .grande-image img {
@@ -559,8 +560,11 @@ footer a {
 
     .deux-petites-images {
 
+
+        display: flex;
+        justify-content: center;
         padding: 0px;
-        width: 42%;
+        width: 50%;
 
     }
 
