@@ -1,0 +1,411 @@
+body {
+    padding: 0px 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.loader {
+    position: fixed;
+    display: flex;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #9356DC;
+    font-size: 100px;
+    width: 100%;
+    min-height: 100%;
+    z-index: 3;
+    animation: disappear .1s forwards;
+    animation-delay: 2s;
+    opacity: 1;
+}
+
+.loader img {
+    width: 300px;
+    margin-top: 20px;
+    animation: opacityyy 2s;
+}
+
+@keyframes disappear {
+    to {
+        transform: scale(0);
+    }
+
+
+}
+
+@keyframes opacityyy {
+    from {
+        opacity: 0;
+        margin-top: 120px;
+    }
+
+    to {
+        opacity: 1;
+        margin-top: 20px;
+    }
+}
+
+header {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.logo {
+    width: 25%;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.searchbar {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+
+.searchbar input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid rgb(178, 178, 178);
+}
+
+.nav-header {
+    display: flex;
+    justify-content: end;
+    width: 75%;
+}
+
+.nav-header button {
+    font-size: 15px;
+    margin-right: 2px;
+    border-radius: 25px;
+    width: 20%;
+    padding: 8px 0px;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.nav-header button:hover {
+    transition: all .2s ease-in-out;
+    background-color: rgb(94, 94, 94);
+    color: white;
+}
+
+.nav-header i {
+    margin-right: 7px;
+    font-size: 20px;
+}
+
+.visit-city {
+
+    margin-top: 120px;
+    display: flex;
+    font-size: 50px;
+    font-family: 'Black Han Sans', sans-serif;
+
+}
+
+.red {
+    color: #FF5D5D;
+}
+
+.filters {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.filters button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 0px 5px;
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.filters button:hover {
+    transition: all .2s ease-in-out;
+    background-color: rgb(94, 94, 94);
+    color: white;
+}
+
+.central-images {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grande-image {
+    padding: 3px;
+    width: 66%;
+}
+
+.grande-image img {
+    width: 100%;
+}
+
+.deux-petites-images {
+
+    padding: 0px;
+    width: 42%;
+
+}
+
+.deux-petites-images img {
+    width: 100%;
+}
+
+.partie-basse {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.description {
+    width: 65%;
+}
+
+.description h2 {
+    width: 80%;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.description p {
+    font-size: 20px;
+    width: 70%;
+}
+
+.plan-general {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-color: #FF5D5D;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 35%;
+}
+
+.infos-plan {
+    padding: 0px 10px;
+    height: 50%;
+}
+
+.infos-plan h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.infos-plan p {
+    margin-bottom: 30px;
+}
+
+.infos-plan span {
+    padding: 12px;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    border-radius: 25px;
+}
+
+.image-plan {
+    height: 40%;
+    width: 100%;
+}
+
+.image-plan img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.partie-basse-2 {
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.caroussel {
+    display: flex;
+    width: 100%;
+}
+
+
+
+.title {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    /* background-color: #FF5D5D; */
+}
+
+.infos-caroussel {
+
+    width: 25%;
+
+}
+
+.infos-caroussel h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.infos-caroussel p {
+    margin-bottom: 30px;
+    width: 70%;
+    font-weight: 300;
+}
+
+.infos-caroussel span {
+    text-decoration: underline;
+    border-radius: 25px;
+}
+
+.list-caroussel {
+    /* background-color: red; */
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 75%;
+    height: 350px;
+    overflow-x: scroll;
+}
+
+div::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+
+.fiche-caroussel {
+    position: relative;
+    margin-right: 18px;
+    height: 100%;
+    width: 32%;
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    border-radius: 10px;
+    /* background-color: rgb(78, 164, 164); */
+}
+
+.fiche-caroussel:hover {
+    background-color: rgb(178, 178, 178);
+    transition: all .1s ease-in-out;
+}
+
+.heart {
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 22px;
+    padding: 8px;
+    right: 10px;
+    top: 10px;
+    transition: all .2s ease-in-out;
+
+}
+
+.heart:hover {
+    background-color: #FF5D5D;
+    color: white;
+    transition: all .2s ease-in-out;
+    animation: rotation 1s;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.best {
+    position: absolute;
+    padding: 5px;
+    background-color: #33DFA1;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 40px;
+    bottom: 150px;
+    left: 20px
+}
+
+.fiche-caroussel img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.fiche-caroussel h3 {
+    margin-left: 3px;
+    margin-top: 10px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.fiche-caroussel span {
+    margin-left: 3px;
+    color: #04A96C;
+}
+
+.fiche-caroussel p {
+    margin-left: 3px;
+    margin-top: 8px;
+    font-weight: 300;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #F9F1EC;
+}
+
+footer img {
+    border: solid 2px black;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+footer a {
+    margin-right: 3px;
+}
